@@ -33,7 +33,7 @@ class BootstrapMixin(object):
         if hasattr(self, 'Meta') and hasattr(self.Meta, 'template_base'):
             self.template_base = self.Meta.template_base
         else:
-            self.template_base = "bootstrap"
+            self.template_base = "bootstrap2"
 
     def as_div(self):
         """ Render the form as a set of <div>s. """
